@@ -1,4 +1,4 @@
-export PS1=" \[$(tput sgr0)\]\[\033[38;5;49m\]\w\[$(tput sgr0)\]\[\033[38;5;12m\]::\[$(tput sgr0)\]\[\033[38;5;49m\]\`parse_git_branch\`$(tput sgr0)\]\[\033[38;5;15m\]\n\n \[$(tput sgr0)\]\[\033[38;5;11m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+export PS1=" \[$(tput sgr0)\]\[\033[38;5;11m\]{\[$(tput sgr0)\]\[\033[38;5;14m\]\w...\033[38;5;10m\]\`parse_git_branch\`\[$(tput sgr0)\]\[\033[38;5;11m\]}\[$(tput sgr0)\]\[\033[38;5;15m\]\n\n \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;11m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
 # get current branch in git repo
 
